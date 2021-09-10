@@ -23,10 +23,10 @@ const events = [
     owner: 'userIdMatchMaker',
     subject: 'Charla acerca de algo',
     description: 'ni idea',
-    roomID: 'userId',
+    roomID: '601db9361619252d7ad57b62',
     startDate: moment().add(moment.duration('00:30')).toDate(),
     endDate: moment().add(moment.duration('01:00')).toDate(),
-    assistants: [],
+    assistants: ['601db9361619252d7ad57b62'],
     eventType: 'Interview',
     createDate: moment().toDate(),
     changeLog: [],
@@ -37,10 +37,10 @@ const events = [
     owner: 'userIdMatchMaker',
     subject: 'Charla acerca de CarpeDm',
     description: 'otro',
-    roomID: 'userId',
+    roomID: '601db9361619252d7ad57b62',
     startDate: moment().add(moment.duration('01:30')).toDate(),
     endDate: moment().add(moment.duration('02:00')).toDate(),
-    assistants: [],
+    assistants: ['601db9361619252d7ad57b62'],
     eventType: 'Interview',
     createDate: moment().toDate(),
     changeLog: [],
@@ -57,7 +57,7 @@ const events = [
       .add(moment.duration(2, 'days'))
       .add(moment.duration('00:30'))
       .toDate(),
-    assistants: [],
+    assistants: ['60235bf3846044877f6fd517'],
     eventType: 'Interview',
     createDate: moment().toDate(),
     changeLog: [],
@@ -74,7 +74,7 @@ const events = [
       .add(moment.duration(5, 'days'))
       .add(moment.duration('00:30'))
       .toDate(),
-    assistants: [],
+    assistants: ['60235bf3846044877f6fd517'],
     eventType: 'Interview',
     createDate: moment().toDate(),
     changeLog: [],
